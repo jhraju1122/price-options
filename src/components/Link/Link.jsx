@@ -2,7 +2,7 @@ import { prototype } from 'postcss/lib/previous-map';
 import PropTypes from 'prop-types'; 
 const Link = ({route}) => {
     return (
-        <li>
+        <li className='hover:bg-yellow-500 px-6'>
         <a href={route.path}>{route.name}</a></li>
     );
 };
