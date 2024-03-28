@@ -1,6 +1,7 @@
 import Navbar from './components/NavBar/Navbar'
 import { useState } from 'react'
 import './App.css'
+import DaisyNav from './components/DaisyNav/DaisyNav'
 
 // import DaisyNav from './components/DaisyNav/DaisyNav'
 
@@ -11,6 +12,7 @@ function App() {
     <>
     
       <Navbar></Navbar>
+      <DaisyNav></DaisyNav>
       <h1 className='text-7xl bg-rose-400'>Vite + React</h1>
        
 
